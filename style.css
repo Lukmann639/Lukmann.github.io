@@ -1,0 +1,212 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  width: 1100px;
+  margin: auto;
+  position: relative;
+}
+
+.logo a {
+  font-size: 50px;
+  font-weight:  bold;
+  float: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #243642;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #ffffff;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: rgb(18, 18, 18);
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: franklinm 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #243642;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800px;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #243642;
+    width: 150%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: #6A9AB0;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #001F3F;
+    text-decoration: none;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+   
+}
+
+.subcard {
+    width: 400px;
+    border-radius: 20px;
+    background-color: #b4eaf4;
+    padding: 10px 20px;
+}
+
+ul li {
+    list-style: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+ul li:last-child{
+    border-bottom: none;
+}
+
+ul li label{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.subcard ul li label input:checked ~ p{
+    text-decoration: underline;
+    color: coral;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 05px 20px;
+ 
+}
+th {
+    background-color: #d2e8f3;
+    color: rgb(1, 14, 13);
+}
+h1{
+    font-family: 'Arial Narrow';
+    font-size: 20px;
+}
+.container {
+        display: flex;
+        justify-content: center;
+}
+body{
+    background-color: aliceblue;
+}
+ 
+.login {
+    width: 80px;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #243642;
+}
+
+form label{
+    margin-left: -10px;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 22px;
+}
+
+.login input {
+    width: 87%;
+    margin-top: 2px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 250px;
+    color: #f3f9f9;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #3A6D8C;
+}
+
+button:hover {
+    background: #001F3F;
+}
